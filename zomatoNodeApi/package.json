@@ -1,0 +1,20 @@
+{
+  "name": "zomato-app",
+  "version": "1.0.0",
+  "description": "First Project",
+  "main": "zomatoApi.js",
+  "scripts": {
+    "start": "node zomatoApi.js",
+    "dev": "nodemon zomatoApi.js"
+  },
+  "author": "Vikrant Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
