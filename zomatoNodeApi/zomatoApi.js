@@ -75,7 +75,7 @@ app.get('/api/v1/restaurant' , (req,res)=>{
 
 //return data for filters
 
-app.get('/api/v1/meals/:mealId' , (req, res)=>{
+app.get('/api/v1/meals/filter/:mealId' , (req, res)=>{
     let id = Number(req.params.mealId)
     let query = {"mealTypes.mealtype_id":id}
     var sort = {cost:1}
