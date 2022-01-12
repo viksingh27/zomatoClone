@@ -143,7 +143,7 @@ app.post('/api/v1/menuItem',(req,res) => {
     
 })
 
-app.put('/updateStatus/:id',(req,res) => {
+app.put('/api/v1/updateStatus/:id',(req,res) => {
     var id = Number(req.params.id);
     var status = req.body.status?req.body.status:"Pending"
         db.collection('orders').updateOne(
